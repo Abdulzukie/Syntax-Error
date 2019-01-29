@@ -1,0 +1,114 @@
+<!DOCTYPE>
+<html>
+   <head>
+      <title>About Moalboal</title>
+   </head>
+   <link rel="stylesheet" type="text/css" href="./css/moalboalstyle.css" >
+   </head>
+   <body>
+      </style>
+      <body background="./images/background.jpg" >
+         <div id="core">
+            <header>
+               <h1>
+               Moalboal
+               <h1>
+            </header>
+            <div id="holder"></div>
+              <center>
+               <p style = "font-family: Comic Sans MS">officially the <b>Municipality of Moalboal</b>, (Cebuano: Lungsod sa Moalboal; Tagalog: Bayan ng Moalboal), is a 4th class municipality in the province of Cebu, Philippines. According to the 2015 census, it has a population of 31,130 people.
+                  <br>
+               <p style = "font-family: Comic Sans MS">Extending as a peninsula on the south-western tip of Cebu, Moalboal is bordered to the west by the Tañon Strait. Negros Island can be seen from the western shoreline. Moalboal is located 89 kilometres (55 mi) from Cebu City, about 2½ hours by bus.</p>
+           
+               <p style = "font-family: Comic Sans MS">Moalboal is bordered to the north by the town of Alcantara, to the west is the Tañon Strait, to the east is the town of Argao, and to the south is the town of Badian. <b>Pescador Island</b>, <b>White beach</b>, <b>Kawasan Falls</b>, <b>Panagsama beach</b> is the popular tourist attraction, is part of the municipality.</p>
+
+            <div class="slideshow-container">
+               <div class="mySlides fade">
+                  <div class="numbertext">1 / </div>
+                  <img src="./images/m1.jpg" style="width:100%;height:60%" alt="Avatar" style="width:200px">
+                  <div class="text">Moalboal Fruit Stand</div>
+               </div>
+               <div class="mySlides fade">
+                  <div class="numbertext">2 / 5</div>
+                  <img src="./images/park.jpg" style="width:100%;height:60%">
+                  <div class="text">Moalboal Park</div>
+               </div>
+               <div class="mySlides fade">
+                  <div class="numbertext">3 / 5</div>
+                  <img src="./images/Moalboal_church.jpg" style="width:100%;height:60%">
+                  <div class="text">Moalboal Church</div>
+               </div>
+               <div class="mySlides fade">
+                  <div class="numbertext">4 / 5</div>
+                  <img src="./images/Moalboal_Cebu_5.jpg" style="width:100%;height:60%">
+                  <div class="text">Moalboal Municipal Hall</div>
+               </div>
+               <div class="mySlides fade">
+                  <div class="numbertext">5 / 5</div>
+                  <img src="./images/s_shore_diving_cebufunfivers_1500-1500x600 (1).jpg" style="width:100%; height:60%">
+                  <div class="text">Easy Shore Diving</div>
+               </div>
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!--
+               <div style="text-align:center">
+                 <span class="dot" onclick="currentSlide(1)"></span> 
+                 <span class="dot" onclick="currentSlide(2)"></span> 
+                 <span class="dot" onclick="currentSlide(5)"></span>
+                 <span class="dot" onclick="currentSlide(1)"></span> 
+                 <span class="dot" onclick="currentSlide(1)"></span> 
+               </div>-->
+           
+            <article style = "font-family: Comic Sans MS">	
+               
+               <br>
+               <p style="font-size: 20"></p>
+               <div>
+               </div> 
+               <script>
+               var slideIndex = 1;
+               showSlides(slideIndex);
+               
+               function plusSlides(n) {
+                 showSlides(slideIndex += n);
+               }
+               
+               function currentSlide(n) {
+                 showSlides(slideIndex = n);
+               }
+               
+               function showSlides(n) {
+                 var i;
+                 var slides = document.getElementsByClassName("mySlides");
+                 var dots = document.getElementsByClassName("dot");
+                 if (n > slides.length) {slideIndex = 1}    
+                 if (n < 1) {slideIndex = slides.length}
+                 for (i = 0; i < slides.length; i++) {
+                     slides[i].style.display = "none";  
+                 }
+                 for (i = 0; i < dots.length; i++) {
+                     dots[i].className = dots[i].className.replace(" active", "");
+                 }
+                 slides[slideIndex-1].style.display = "block";  
+                 dots[slideIndex-1].className += " active";
+               }
+            </script>
+               
+                  
+          
+               <a href="Home.html" style="text-align:center;">Back to home</a>
+              
+      
+            </article>
+            <div id="footer">
+            <p> <p>Posted by: AJ Magalin</p>
+            <p>Contact information: <a href="https://mail.google.com/mail/u/0/#inbox">
+            Ajmagalin@student.passerellesnumeriques.org</a>.</p>
+            </p>
+            </div>
+         </div>
+
+   </body>
+</html>

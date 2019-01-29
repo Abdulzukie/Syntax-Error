@@ -1,0 +1,170 @@
+<!DOCTYPE>
+<html>
+   <head>
+      <title>Kawasan Content</title>
+      <link rel="stylesheet" type="text/css" href="./css/kawasancontent.css">
+   </head>
+   <body>
+      </style>
+      <body background="./images/background.jpg">
+         <div id="core">
+            <header>
+               <h1>
+               Kawasan Falls
+               <h1>
+            </header>
+            <div class="slideshow-container">
+               <div class="mySlides fade">
+                  <div class="numbertext">1 / 5</div>
+                  <img src="./images/Opao, Israel3-1-18.jpg" style="width:100% ; height:60%">
+                  <div class="text">Small Bridge</div>
+               </div>
+               <div class="mySlides fade">
+                  <div class="numbertext">2 / 5</div>
+                  <img src="./images/kawasan-falls-massage.jpg" style="width:100% ; height:60%">
+                  <div class="text">Shower Massage</div>
+               </div>
+               <div class="mySlides fade">
+                  <div class="numbertext">3 / 5</div>
+                  <img src="./images/G0137535-1024x768.jpg" style="width:100% ; height:60%">
+                  <div class="text">Canyoneering</div>
+               </div>
+               <div class="mySlides fade">
+                  <div class="numbertext">4 / 5</div>
+                  <img src="./images/kawasan girl.jpg" style="width:100% ; height:60%">
+                  <div class="text">Kawasan's 2nd Layer</div>
+               </div>
+               <div class="mySlides fade">
+                  <div class="numbertext">5 / 5</div>
+                  <img src="./images/IMG_3688-1.jpg" style="width:100% ; height:60%">
+                  <div class="text">3rd Layer</div>
+               </div>
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!--<div style="text-align:center">
+               <span class="dot" onclick="currentSlide(1)"></span> 
+               <span class="dot" onclick="currentSlide(2)"></span> 
+               <span class="dot" onclick="currentSlide(5)"></span>
+               <span class="dot" onclick="currentSlide(1)"></span> 
+               <span class="dot" onclick="currentSlide(1)"></span> 
+               </div>-->
+            <script>
+               var slideIndex = 1;
+               showSlides(slideIndex);
+               
+               function plusSlides(n) {
+                 showSlides(slideIndex += n);
+               }
+               
+               function currentSlide(n) {
+                 showSlides(slideIndex = n);
+               }
+               
+               function showSlides(n) {
+                 var i;
+                 var slides = document.getElementsByClassName("mySlides");
+                 var dots = document.getElementsByClassName("dot");
+                 if (n > slides.length) {slideIndex = 1}    
+                 if (n < 1) {slideIndex = slides.length}
+                 for (i = 0; i < slides.length; i++) {
+                     slides[i].style.display = "none";  
+                 }
+                 for (i = 0; i < dots.length; i++) {
+                     dots[i].className = dots[i].className.replace(" active", "");
+                 }
+                 slides[slideIndex-1].style.display = "block";  
+                 dots[slideIndex-1].className += "active";
+               }
+            </script>
+            </style><!--
+               <body background="background.jpg">
+               	<div id="core">
+               		<header>
+               		<h1>("basdaku")White Beach<h1>
+               		</header>
+               		
+               			<div id="holder"></div><br>-->
+            <article style = "font-family: Comic Sans MS">
+               <center>
+               <br>
+               The pathway may be very dark once the sun sets so its best to have a flashlight at hand. One should be extra careful in going down the slope especially those descending from the second or third falls to avoid mishaps or accidents.
+               <br>
+               Kawasan Falls is a popular get-away destination in the southern part of Cebu to locals and foreigners alike. With its lush tropical trees and plants everywhere, peaceful flow of the river as it gracefully rushes to the distant sea, the sound of the waterfalls on the background, friends and loved ones enjoying the cool and deep fresh water, everything around just seems so relaxed, simple and very serene. Just nature as it should be.
+               <!--
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  
+                  <div>
+                  <table><tbody><tr>
+                  			<td> <img src="basdaku-white-beach.jpg" style ="width:700px; height:420px;"></td>
+                  			<td><center>
+                  					<h1><b>White Sand</b></h1>
+                  					<p>
+                  					</p>
+                  				</center></td>
+                  </tr></tbody></table>
+                  </div><br>
+                  
+                  <div>
+                  <table><tbody><tr>
+                  			<td> <img src="basdaku tents.jpg" style ="width:700px; height:420px;"></td>
+                  			<td><center>
+                  					<h1><b>Tents</b></h1>
+                  					<p>
+                  					</p>
+                  				</center></td>
+                  </tr></tbody></table>
+                  </div><br>
+                  
+                  <div>
+                  <table><tbody><tr>
+                  			<td> <img src="xbasdaku-beach-155.jpg.pagespeed.ic.o2UFDfD-US.jpg" style ="width:700px; height:420px;"></td>
+                  			<td><center>
+                  					<h1><b>Cottages</b></h1>
+                  					<p>
+                  					</p>
+                  				</center></td>
+                  </tr></tbody></table>
+                  </div><br>
+                  
+                  <div>
+                  <table><tbody><tr>
+                  			<td> <img src="xIMG_2631.jpg" style ="width:700px; height:420px;"></td>
+                  			<td><center>
+                  					<h1><b>Rooms</h1>
+                  					<p>
+                  					</p>
+                  				</center></td>
+                  </tr></tbody></table>
+                  </div><br>
+                  
+                  <div>
+                  <table><tbody><tr>
+                  			<td> <img src="whitebeach.jpg" style ="width:700px; height:420px;"></td>
+                  			<td><center>
+                  					<h1><b>White Beach Over view</b></h1>
+                  					<p>
+                  					</p>
+                  				</center></td>
+                  </tr></tbody></table>
+                  </div><br>--><br>
+               <form>
+                  <center>
+                     <input type="button" value="Go Back" onclick="window.location.href='Kawasan.html'" />
+               </form>
+               </center>
+               <!--<a href="Home.html" style="text-align:center;"></a>-->
+            </article>
+         </div>
+         <footer style="align-content: bottom">
+            <!--<a href="Home.html" style="text-align:center;">Back to home</a>-->
+         </footer>
+   </body>
+</html>
